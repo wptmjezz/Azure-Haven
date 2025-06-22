@@ -1,3 +1,18 @@
+:root {
+    --primary-blue: #0A2E4C;
+    --primary-white: #FFFFFF;
+    --light-gray: #f8f9fa;
+    --text-color: #495057;
+    --heading-font: 'Manuale', serif;
+    --body-font: 'Manuale', serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -52,6 +67,12 @@ nav {
 
 .nav-links a:hover {
     color: #1e3a8a;
+}
+
+nav a.active {
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+    border-color: var(--primary-blue);
 }
 
 .book-btn {
@@ -456,57 +477,38 @@ nav {
 
 /* Footer */
 footer {
-    background: #013A67;
-    color: white;
-    padding: 3rem 0 1rem;
-}
-
-.footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 2rem;
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
     text-align: center;
-}
-
-.footer-container .highlight-yellow {
-    color: #fbbf24;
-    font-weight: 700;
-    font-family: 'Manuale', serif;
-    letter-spacing: 1px;
+    padding: 3rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-logo {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
+    height: 60px;
+    width: auto;
+    margin-bottom: 1rem;
 }
 
-.social-links {
+footer p {
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1.5rem;
+}
+
+.social-icons {
     display: flex;
     justify-content: center;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    gap: 1.5rem;
 }
 
-.social-link {
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-decoration: none;
-    transition: all 0.3s;
+.social-icons a {
+    color: var(--primary-white);
+    transition: color 0.3s, transform 0.3s;
 }
 
-.social-link:hover {
-    background: #2563eb;
-    transform: translateY(-2px);
-}
-
-.copyright {
-    border-top: 1px solid #3b82f6;
-    padding-top: 1rem;
-    font-size: 0.9rem;
-    opacity: 0.8;
+.social-icons a:hover {
+    color: #d4af37;
+    transform: translateY(-3px);
 }
