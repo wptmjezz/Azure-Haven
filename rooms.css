@@ -129,7 +129,7 @@ nav a.active {
 }
 
 .hero-section {
-    background: url('/assets/images/rooms_hero.png') no-repeat center center/cover;
+    background: url('assets/images/rooms_hero.png') no-repeat center center/cover;
     height: calc(100vh - 90px); 
     min-height: 400px;
     width: 100%;
