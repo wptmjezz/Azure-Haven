@@ -422,6 +422,8 @@ nav a.active {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 15px rgba(30, 58, 138, 0.3);
+    outline: none;
+    box-shadow: 0 0 0 3px #fbd40b80;
 }
 
 .check-rooms-btn:hover {
