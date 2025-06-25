@@ -3,47 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Azure Haven</title>
-    <link rel="stylesheet" href="login.css">
+    <title>Sign Up - Azure Haven</title>
+    <!-- Point this to the new, single CSS file -->
+    <link rel="stylesheet" href="signup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <div class="login-container">
-        <div class="login-card">
+    <div class="auth-container">
+        <div class="auth-card">
             
             <!-- Left Panel with Image -->
-            <div class="login-image-panel">
+            <div class="auth-image-panel">
                 <div class="toggle-buttons">
-                    <button class="toggle-btn active">Login</button>
-                    <button class="toggle-btn" onclick="window.location.href='signup.html'">Sign Up</button>
+                    <a href="login.html" class="toggle-btn">Login</a>
+                    <a href="signup.html" class="toggle-btn active">Sign Up</a>
                 </div>
             </div>
 
             <!-- Right Panel with Form -->
-            <div class="login-form-panel">
+            <div class="auth-form-panel">
                 <img src="/assets/images/azure_logo.png" alt="Azure Haven Logo" class="form-logo">
                 
-                <h1>Welcome!</h1>
-                <h2>Your <span class="highlight-blue">Haven</span> Starts Here</h2>
+                <h1>Create an account</h1>
+                <h2><span class="highlight-blue">Azure Haven</span> awaits!</h2>
                 
                 <form>
+                    <div class="input-group name-group">
+                        <input type="text" placeholder="First Name" required>
+                        <input type="text" placeholder="Last Name" required>
+                    </div>
+
                     <div class="input-group">
-                        <input type="email" id="email" name="email" placeholder="Email" required>
+                        <input type="email" placeholder="Email" required>
                     </div>
                     <div class="input-group">
-                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <input type="password" placeholder="Enter your password" required>
                     </div>
                     
-                    <a href="#" class="forgot-password">Forgot password?</a>
-                    
-                    <button type="submit" class="login-btn">Log In</button>
+                    <button type="submit" class="submit-btn">Create account</button>
                 </form>
                 
-                <p class="signup-link">
-                    Don't have an account? <a href="/signup.html">Create one now!</a>
+                <p class="bottom-link">
+                    Already have an account? <a href="login.html">Login here!</a>
                 </p>
                 
                 <div class="social-icons">
