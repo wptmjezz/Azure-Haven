@@ -25,12 +25,11 @@ const roomData = [
         price: '₱3,500',
         guests: 2,
         description: 'Two cozy single beds with modern decor, smart TV, and free breakfast. Great for friends or work trips.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/superior-gallery-1.png',
-            '/assets/images/superior-gallery-2.png',
-            '/assets/images/superior-gallery-3.png',
-            '/assets/images/superior-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
+
         ],
         features: ['2 Single Beds', '42-inch Smart TV', 'Work Desk', 'In-room Safe', 'Mini-fridge', 'Wardrobe'],
         inclusions: ['Free Breakfast for two', 'Complimentary Wi-Fi', 'Daily housekeeping', 'Bottled Water', 'Toiletries & towels']
@@ -41,12 +40,10 @@ const roomData = [
         price: '₱5,800',
         guests: 2,
         description: 'Spacious suite with king-size bed, living area, large windows, mini bar, and premium toiletries.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/executive-gallery-1.png',
-            '/assets/images/executive-gallery-2.png',
-            '/assets/images/executive-gallery-3.png',
-            '/assets/images/executive-gallery-4.png'
+            '/assets/images/room-details/executive1.png',
+            '/assets/images/room-details/executive2.png'
         ],
         features: ['King-size Bed', 'Separate Living Area', 'Panoramic Windows', 'Rainfall Shower', '50-inch Smart TV', 'Espresso Machine'],
         inclusions: ['Premium Toiletries', 'Bathrobes & Slippers', 'Complimentary Wi-Fi', 'Welcome Drink', 'Daily housekeeping']
@@ -57,12 +54,10 @@ const roomData = [
         price: '₱4,700',
         guests: 4,
         description: 'One queen bed and two single beds, perfect for small families. Comes with Netflix-ready smart TV and fridge.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/family-gallery-1.png',
-            '/assets/images/family-gallery-2.png',
-            '/assets/images/family-gallery-3.png',
-            '/assets/images/family-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
         ],
         features: ['1 Queen Bed', '2 Single Beds', 'Netflix-ready TV', 'Mini-fridge', 'Microwave', 'Dining Nook'],
         inclusions: ['Complimentary Wi-Fi', 'Board Games on request', 'Daily housekeeping', 'Toiletries & towels']
@@ -73,12 +68,10 @@ const roomData = [
         price: '₱1,500',
         guests: 1,
         description: 'Compact but clean and modern room with single bed, private shower, and desk. Great for short stays.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/budget-gallery-1.png',
-            '/assets/images/budget-gallery-2.png',
-            '/assets/images/budget-gallery-3.png',
-            '/assets/images/budget-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
         ],
         features: ['1 Single Bed', 'Private Shower', 'Writing Desk', 'Air-conditioning', 'Wall-mounted TV', 'Blackout Curtains'],
         inclusions: ['Complimentary Wi-Fi', 'Daily housekeeping', 'Basic Toiletries', 'Access to common pantry']
@@ -89,12 +82,10 @@ const roomData = [
         price: '₱4,200',
         guests: 2,
         description: 'Stylish room with queen bed, small living area, bath tub, and balcony view.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/junior-gallery-1.png',
-            '/assets/images/junior-gallery-2.png',
-            '/assets/images/junior-gallery-3.png',
-            '/assets/images/junior-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
         ],
         features: ['Queen-size Bed', 'Small Living Area', 'Private Balcony', 'Bathtub', 'City or Sea View', 'Plush Sofa'],
         inclusions: ['Complimentary Wi-Fi', 'Daily housekeeping', 'Upgraded Toiletries', 'Welcome Fruit Platter', 'Bathrobes']
@@ -105,12 +96,10 @@ const roomData = [
         price: '₱12,000',
         guests: 2,
         description: 'Top-floor luxury suite with panoramic seaside view, king bed, sofa lounge, Jacuzzi, and dedicated concierge.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/penthouse-gallery-1.png',
-            '/assets/images/penthouse-gallery-2.png',
-            '/assets/images/penthouse-gallery-3.png',
-            '/assets/images/penthouse-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
         ],
         features: ['Top-floor Location', 'Panoramic Seaside View', 'King Bed', 'Sofa Lounge', 'Private Jacuzzi', 'Dining Area'],
         inclusions: ['Dedicated Concierge', 'Exclusive Lounge Access', 'Complimentary Breakfast', 'Evening Cocktails', 'Limousine Service']
@@ -121,12 +110,10 @@ const roomData = [
         price: '₱3,800',
         guests: 8,
         description: 'Dorm-style room with 4 bunk beds, shared bath, lockers, and common lounge area.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/barkada-gallery-1.png',
-            '/assets/images/barkada-gallery-2.png',
-            '/assets/images/barkada-gallery-3.png',
-            '/assets/images/barkada-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
         ],
         features: ['4 Bunk Beds', '8 Personal Lockers', 'Shared Bathroom', 'Common Lounge Access', 'USB Charging Ports', 'Reading Lights'],
         inclusions: ['High-speed Wi-Fi', 'Linen & Towels', 'Access to common kitchen', 'Daily housekeeping of common areas']
@@ -137,12 +124,10 @@ const roomData = [
         price: '₱2,900',
         guests: 2,
         description: 'Queen-size bed with accessible layout, support rails in bathroom, wide doorway, and emergency alert system.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/accessible-gallery-1.png',
-            '/assets/images/accessible-gallery-2.png',
-            '/assets/images/accessible-gallery-3.png',
-            '/assets/images/accessible-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
         ],
         features: ['Wide Doorways (32")', 'Roll-in Shower', 'Support Rails in Bathroom', 'Emergency Alert System', 'Lowered Light Switches', 'Accessible Desk'],
         inclusions: ['Complimentary Wi-Fi', 'Daily housekeeping', 'Wheelchair accessible routes', 'On-call staff assistance']
@@ -153,12 +138,10 @@ const roomData = [
         price: '₱6,500',
         guests: 2,
         description: 'Romantic suite with canopy king bed, mood lighting, tub for two, complimentary wine, and room service.',
-        heroImage: '/assets/images/details-hero-hallway.png',
+        heroImage: '/assets/images/room-details/room_details_hero.png',
         gallery: [
-            '/assets/images/honeymoon-gallery-1.png',
-            '/assets/images/honeymoon-gallery-2.png',
-            '/assets/images/honeymoon-gallery-3.png',
-            '/assets/images/honeymoon-gallery-4.png'
+            '/assets/images/room-details/superior1.png',
+            '/assets/images/room-details/superior2.png'
         ],
         features: ['Canopy King Bed', 'Mood Lighting System', 'Jacuzzi Tub for Two', 'Private Balcony', 'In-room Sound System', 'Double Vanity Sink'],
         inclusions: ['Complimentary Bottle of Wine', 'Breakfast in Bed', 'Late Check-out', 'Romantic Room Setup on request', 'Couples Massage Discount']
